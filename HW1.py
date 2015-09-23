@@ -10,7 +10,6 @@ f2 = open('words.txt', 'r')
 
 word_list = ''
 for line in f2:
-    words.append(line.replace('\n', ''))
     word_list += line.replace('\n', '|')
 
 word_list_final = word_list[:-1]
